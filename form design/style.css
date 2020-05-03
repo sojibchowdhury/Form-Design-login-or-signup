@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: tahoma;
+}
+.hero{
+    width: 100%;
+    height:100%;
+    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url('philipp-kammerer-6Mxb_mZ_Q8E-unsplash.jpg');
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+}
+.form-box{
+    width: 380px;
+    height: 480px;
+    position: relative;
+    margin: 6% auto;
+    padding: 4px;
+    background:#fff;
+    opacity: 0.7;
+    border-radius: 30px;
+    overflow: hidden;
+}
+.login h2{
+    padding: 10px;
+    font-size: 30px;
+    border: 3px solid #F14CCA;
+    width: 215px;
+    margin: auto;
+    border-radius: 40px;
+    color: #551A8F;
+    cursor: pointer;
+    position: relative;
+    top: 40px;
+    
+}
+.input-group{
+    top:170px;
+    position: absolute;
+    width: 280px;
+    transition: .5s;
+    margin-left: 50px;
+    
+}
+.input-field{
+    width: 100%;
+    padding: 10px 0;
+    margin: 5px 0;
+    border-left: 0;
+    border-right: 0;
+    border-top: 0;
+    border-bottom: 2px solid #999;
+    outline: none;
+    background: transparent;
+}
+.checkbox{
+    margin: 30px 10px 30px 0;
+}
+.m{
+    display: block;
+    font-size: 14px;
+    text-decoration: none; 
+}
+.m:hover{
+    color: fuchsia;
+}
+span{
+    font-size: 14px;
+}
+.login-btn{
+    width: 45%;
+    padding: 10px 30px;
+    cursor: pointer;
+    display: block;
+    margin: auto;
+    border: 0;
+    outline: none;
+    background: linear-gradient(to right,#747EDF,#F24BC9);
+    color: white;
+    font-size: 20px;
+    box-sizing: border-box;
+    border-radius: 40px
+}
+.login-btn:hover{
+    color: aqua;
+}
+h5{
+    text-align: center;
+    position: relative;
+    top: 30px;  
+}
+h5 a{
+    text-decoration: none;
+}
+h5 a:hover{
+    text-decoration: underline;
+    color: fuchsia
+}
